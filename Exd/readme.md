@@ -57,4 +57,5 @@ If you find our work useful for your research, please cite our paper:
 }
 ```
 
-Jiang, S., Mei, Y., Wang, P., & Liu, Q. (2024). Exposure difference network for low-light image enhancement. Pattern Recognition, 156, 110796.
+## Acknowledge
+This project is based on IAT(https://github.com/cuiziteng/Illumination-Adaptive-Transformer). Thanks for these awesome codes!
