@@ -46,13 +46,15 @@ python train.py
 ## Citation
 If you find our work useful for your research, please cite our paper:
 ```
-@article{jiang2024low,
-  title={Exposure Difference Network for Low-light Image Enhancement},
+@article{jiang2024exposure,
+  title={Exposure difference network for low-light image enhancement},
   author={Jiang, Shengqin and Mei, Yongyue and Wang, Peng and Liu, Qingshan},
-  journal={},
-  year={2024}
+  journal={Pattern Recognition},
+  volume={156},
+  pages={110796},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
 
-## Contact
-If you have any questions, please feel free to contact us via xx.
+Jiang, S., Mei, Y., Wang, P., & Liu, Q. (2024). Exposure difference network for low-light image enhancement. Pattern Recognition, 156, 110796.
