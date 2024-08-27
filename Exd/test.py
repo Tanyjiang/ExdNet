@@ -14,8 +14,8 @@ import lpips
 parser = argparse.ArgumentParser()
 parser.add_argument('--gpu_id', type=str, default=0)
 parser.add_argument('--save', type=bool, default=True)
-parser.add_argument('--img_val_path', type=str, default='/home/shengqin/myy/LSRW/Eval/Huawei/low/')
-# parser.add_argument('--img_val_path', type=str, default='/home/shengqin/myy/RELLISUR_pair/Test/LR/')
+parser.add_argument('--img_val_path', type=str, default='/home/xxx')
+# parser.add_argument('--img_val_path', type=str, default='/home/xxx')
 
 parser.add_argument("--dataset", type=str, default='LSRW', help="LSRW or RELLISUR")
 parser.add_argument('--result_path', type=str, default='./result_img/')
