@@ -11,8 +11,8 @@ from model.function import *
 Tensor = torch.cuda.FloatTensor if True else torch.Tensor
 parser = argparse.ArgumentParser()
 parser.add_argument('--gpu_id', type=str, default=0)
-parser.add_argument('--img_val_path', type=str, default='/home/shengqin/myy/LSRW/Eval/Nikon/low/')
-parser.add_argument('--img_path', type=str, default='/home/shengqin/myy/LSRW/Training data/Nikon/low/')
+parser.add_argument('--img_val_path', type=str, default='/home/xxx/')
+parser.add_argument('--img_path', type=str, default='/home/xxx/')
 parser.add_argument("--dataset", type=str, default='LSRW', help="LSRW or RELLISUR")
 parser.add_argument("--normalize", action="store_false", help="Default Normalize in LOL training.")
 parser.add_argument('--model_type', type=str, default='s')
