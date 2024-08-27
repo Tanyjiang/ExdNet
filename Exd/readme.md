@@ -58,4 +58,4 @@ If you find our work useful for your research, please cite our paper:
 ```
 
 ## Acknowledge
-This project is based on IAT(https://github.com/cuiziteng/Illumination-Adaptive-Transformer). Thanks for these awesome codes!
+This project is based on [IAT](https://github.com/cuiziteng/Illumination-Adaptive-Transformer). Thanks for these awesome codes!
