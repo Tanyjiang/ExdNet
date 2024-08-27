@@ -3,11 +3,11 @@
 
 **Exposure Difference Network for Low-light Image Enhancement**
 <br>_Shengqin Jiang, Yongyue Mei, Peng Wang, Qingshan Liu_<br>
-In Pattern Recognition
+Pattern Recognition, 156, 110796.
 
 ## Overall
-![Framework](images/network.png)
 
+Low-light image enhancement aims to simultaneously improve the brightness and contrast of low-light images and recover the details of the visual content. This is a challenging task that makes typical data-driven methods suffer, especially when faced with severe information loss in extreme low-light conditions. In this work, we approach this task by proposing a novel exposure difference network. The proposed network generates a set of possible exposure corrections derived from the differences between synthesized images under different exposure levels, which are fused and adaptively combined with the raw input for light compensation. By modeling the intermediate exposure differences, our model effectively eliminates the redundancy existing in the synthesized data and offers the flexibility to handle image quality degradation resulting from varying levels of inadequate illumination. To further enhance the naturalness of the output image, we propose a global-aware color calibration module to derive low-frequency global information from inputs, which is further converted into a projection matrix to calibrate the RGB output. Extensive experiments show that our method can achieve competitive light enhancement performance both quantitatively and qualitatively.
 
 ## Get Started
 ### Dependencies and Installation
