@@ -34,7 +34,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = str(config.gpu_id)
 
 model = Exd().cuda()
 lpips_loss=lpips.LPIPS(net='alex').cuda()
-model.load_state_dict(torch.load("/home/shengqin/myy/7-19-ExdNet/ExdNet/ExdNet-main/Exd/best_Epoch_Huawei.pth"),strict=False)
+model.load_state_dict(torch.load("/xxx/best_Epoch_Huawei.pth"),strict=False)
 
 model.eval()
 
